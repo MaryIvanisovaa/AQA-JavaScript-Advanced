@@ -11,8 +11,6 @@ console.log(`Javascript is: ${feedback}, ${color}, ${number}`);
 
 let size = 46; 
 size = 42;
-
-
 console.log(size);
 
 
