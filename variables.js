@@ -1,7 +1,7 @@
 let adminName ='Maria';
 let userName ='Igor';
 
-console.log(typeof adminName, typeof userName)
+console.log(typeof adminName, typeof userName);
 
 let feedback = "awesome";
 let color = 'orange';
