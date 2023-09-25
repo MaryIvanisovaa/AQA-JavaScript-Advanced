@@ -5,8 +5,8 @@ console.log(age > 18);
 
 //Second exercise
 
-let name = "Maria";
-let secondName = "Vlad";
+let name = 'Maria';
+let secondName = 'Vlad';
 let greeting = `Hello ${name} and ${secondName}`;
 console.log(greeting);
 
@@ -34,7 +34,7 @@ console.log (`${length}, ${someInformation}, ${result}, ${ending}`);
 
 let pi = Math.PI;
 let radius = 20;
-let area = pi*radius^2;
+let area = pi*radius**2;
 let area1 = area.toFixed(2);
 
 let lenght1 = 15;
@@ -44,7 +44,7 @@ let area2 = areaA.toFixed(2);
 
 
 let height = 30;
-let dimension = pi*radius^2*height;
+let dimension = pi*radius**2*height;
 let dimension1 = dimension.toFixed(2);
 
 console.log (`${area1}, ${area2}, ${dimension1}`); 
