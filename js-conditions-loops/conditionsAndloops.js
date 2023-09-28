@@ -77,10 +77,7 @@ console.log(message);
 const number = 30;
 
 for (let i = 1; i<=30; i++){
-    if (i % 2!== 0){
-        continue;
-    }
-    if (i === 22) {
+    if (i % 2!== 0 || i === 22){
         continue;
     }
     console.log (i);
