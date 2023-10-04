@@ -1,3 +1,4 @@
+let nestedArray = [["apple", "banana", "dog"],["cherry", "cat", "elephant"],["red", "green", "cat"]];
 function iterateNestedArray(array) {
     for (let subArray of array) {
         for (let element of subArray) {
@@ -9,7 +10,6 @@ function iterateNestedArray(array) {
     }
 }
 
-let nestedArray = [["apple", "banana", "dog"],["cherry", "cat", "elephant"],["red", "green", "cat"]];
   
 iterateNestedArray(nestedArray);
 
