@@ -4,7 +4,7 @@ let automationQA ={
 };
 automationQA.programmerName = 'Mariia',
 automationQA.programmingLanguages = ['Java', 'JavaScript']
-automationQA ["age"] = 25,
+automationQA ['age'] = 25,
 automationQA ["Languages"] = ['Ukrainian', 'English', 'Spanish'],
 automationQA.preferences = [
     basicPreferences = 'table', 'laptop', 'mouse',
@@ -40,24 +40,24 @@ console.log(movie);
 
 const englishBooks = [
     {
-        title: "To Kill a Mockingbird",
-        author: "Harper Lee",
+        title: 'To Kill a Mockingbird',
+        author: 'Harper Lee',
         year: 1960
     },
     {
-        title: "1984",
-        author: "George Orwell",
+        title: '1984',
+        author: 'George Orwell',
         year: 1949
     },
     {
-        title: "The Great Gatsby",
-        author: "F. Scott Fitzgerald",
+        title: 'The Great Gatsby',
+        author: 'F. Scott Fitzgerald',
         year: 1925
     }
 ];
 
 for (const book of englishBooks) {
-    if (book.title === "The Great Gatsby") {
+    if (book.title === 'The Great Gatsby') {
         continue;
     }
 
@@ -65,8 +65,8 @@ for (const book of englishBooks) {
         console.log(book.year);
     }
 
-    if (book.author === "George Orwell") {
-        book.author = "Another One";
+    if (book.author === 'George Orwell') {
+        book.author = 'Another One';
     }
 }
 console.log(englishBooks);
@@ -78,12 +78,12 @@ let mainObj = {
     secondKey: 'Second One',
     secondObj: {
       thirdKey: 'Third One',
-      fourthKey: "Forth One"
+      fourthKey: 'Forth One'
     },
   };
   
   for (const someKeys in mainObj) {
-    if (typeof mainObj[someKeys] === "object") {
+    if (typeof mainObj[someKeys] === 'object') {
       for (const innerKey in mainObj[someKeys]) {
         console.log(mainObj[someKeys][innerKey]);
       }
