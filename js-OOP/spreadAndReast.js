@@ -1,12 +1,12 @@
 // First exercise
 
-let User1 =[
+let user1 =[
     name = 'Mariia',
     lastName = 'Ivanisova',
     age = 25
 ];
 
-let User2 =[
+let user2 =[
     name = 'Slava',
     lastName = 'Vitruk',
     age=  31
