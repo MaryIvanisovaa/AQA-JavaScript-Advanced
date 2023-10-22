@@ -6,8 +6,3 @@ function myFunction(value) {
 }
 
 myFunction(2);
-
-
-
-
-
